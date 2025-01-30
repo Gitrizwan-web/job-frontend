@@ -8,7 +8,8 @@ import { Label } from "./ui/label";
 
 import UpdateProfileDialog from "./UpdateProfileDialog";
 import { useSelector } from "react-redux";
-import useGetAppliedJobs from "@/hooks/useGetAppliedJobs";
+import useGetAppliedJobs from "../hooks/useGetAppliedJobs";
+
 import ApplicationTable from "./ApplicationTable";
 
 // const skills = ["Html", "Css", "Javascript", "Reactjs"]
